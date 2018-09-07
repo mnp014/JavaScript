@@ -1,10 +1,10 @@
 # Step 1 : PRE-REQUSITE
-## Install Node.JS:
+## Install Node.JS :
 - Check install
 ```
 		node -v
 ```
-## Setup sublime3:
+## Setup sublime3 :
 - Goto:Tool>build system>new build system >
 - Replace all with below
 		
@@ -15,11 +15,11 @@
 		 "selector":"source.js"
 		}
 ```
-- Save as:
+- Save as :
 ```
 		 nodecompile.sublime-build
 ```	
-## Install ember:
+## Install ember :
 ```
 		npm install -g ember-cli
 ```
@@ -29,16 +29,16 @@
 ```
   $ ember new <ember-quickstart>
 ```
-## Start ember server
+## Start ember server :
 ```
   $ ember serve
 ```
-## View it on browser:
+## View it on browser :
 ```
 	http://localhost:4200/
 ```
 ---
-# Step 3 DEFINE ROUTE
+# Step 3 : DEFINE ROUTE
 - Open new git bash 
 ```
   $ ember generate route <scientists>
@@ -103,7 +103,7 @@ Output:
 	
 	
 ---
-# Step 5: CLICK EVENTS
+# Step 5 : CLICK EVENTS
 - Navigate to "app/templates/components/people-list.hbs"
 	
 ```
@@ -125,7 +125,7 @@ Output:
 	
 ```
 	
-Example:
+Example :
 ```
 	
 	import Component from '@ember/component';
